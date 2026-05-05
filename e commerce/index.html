@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopEase New</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">ShopEase</div>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<header id="hero">
+  <div class="hero-content">
+    <h1>Discover Premium Products</h1>
+    <p>Shop the latest gadgets and accessories with style.</p>
+    <a href="#products" class="btn">Explore Now</a>
+  </div>
+</header>
+
+<!-- PRODUCTS -->
+<section id="products" class="products-section">
+  <h2>Our <span>Collection</span></h2>
+
+  <div class="products-container">
+    <div class="product-card" onclick="openProduct('#')">
+      <img src="e-commerce-img.avif" alt="Product 1">
+      <div class="product-info">
+        <h3>Smart Watch</h3>
+        <p>$150</p>
+      </div>
+    </div>
+
+    <div class="product-card" onclick="openProduct('#')">
+      <img src="images (2).jfif" alt="Product 2">
+      <div class="product-info">
+        <h3>Wireless Headphones</h3>
+        <p>$80</p>
+      </div>
+    </div>
+
+    <div class="product-card" onclick="openProduct('#')">
+      <img src="images.jfif" alt="Product 3">
+      <div class="product-info">
+        <h3>Gaming Mouse</h3>
+        <p>$45</p>
+      </div>
+    </div>
+
+    <div class="product-card" onclick="openProduct('#')">
+      <img src="IMAGE FROM ANGLE 03.jpg" alt="Product 4">
+      <div class="product-info">
+        <h3>Bluetooth Speaker</h3>
+        <p>$60</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+  <h2>Contact <span>Us</span></h2>
+  <p>Questions? Reach out to us anytime.</p>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <textarea placeholder="Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

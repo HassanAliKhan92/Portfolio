@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hassan Ali Khan - Frontend Developer CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 40px;
+      background: #0b0f19;
+      color: #e0e0e0;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: auto;
+      background: #111728;
+      padding: 40px 60px;
+      border-radius: 12px;
+      border: 2px solid #36e29a;
+      box-shadow: 0 0 25px rgba(54, 226, 154, 0.2);
+    }
+
+    h1 {
+      color: #36e29a;
+      font-size: 34px;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: #36e29a;
+      margin-top: 30px;
+      border-bottom: 2px solid #36e29a;
+      display: inline-block;
+      padding-bottom: 5px;
+      text-transform: uppercase;
+    }
+
+    .contact {
+      margin-bottom: 25px;
+      color: #b0b0b0;
+      font-size: 15px;
+    }
+
+    .section p, ul {
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style: square;
+      margin-left: 20px;
+      color: #dcdcdc;
+    }
+
+    a {
+      color: #36e29a;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .highlight {
+      color: #36e29a;
+      font-weight: 600;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hassan Ali Khan</h1>
+    <p class="contact">📍 Karachi, Pakistan | ✉️ hassan.dev@gmail.com | 🌐 <a href="https://github.com/hassan-dev" target="_blank">github.com/hassan-dev</a></p>
+
+    <div class="section">
+      <h2>Profile</h2>
+      <p>Passionate and creative <span class="highlight">Frontend Developer</span> skilled in building modern, responsive, and user-friendly websites using HTML, CSS, JavaScript, Bootstrap, and jQuery. Always eager to learn and improve coding techniques to craft better web experiences.</p>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5 / CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>Bootstrap & jQuery</li>
+        <li>Responsive Web Design</li>
+        <li>Version Control (Git & GitHub)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Real Estate Website:</strong> Property listings site using Bootstrap & JS filters.</li>
+        <li><strong>Restaurant Landing Page:</strong> Interactive landing page with modern UI effects.</li>
+        <li><strong>Portfolio Website:</strong> Personal responsive portfolio using HTML, CSS, and JS.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <p>Matric (10th Grade) — Science | Karachi, Pakistan</p>
+    </div>
+
+    <div class="section">
+      <h2>Languages</h2>
+      <p>English, Urdu</p>
+    </div>
+  </div>
+</body>
+</html>
