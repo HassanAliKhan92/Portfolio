@@ -18,8 +18,6 @@
 
  <header class="navbar">
 
-
-  
   <div class="logo-container">
     <div class="logo-mark">
       <div class="logo-text">H</div>
@@ -39,10 +37,11 @@
     <li><a href="#contact">Contact</a></li>
   </ul>
 
-  <!-- Mobile button -->
-  <div class="menu-btn" onclick="toggleMenu()">☰</div>
+  <!-- MOBILE BUTTON -->
+  <div class="menu-btn" id="menuBtn">☰</div>
 
 </header>
+
 
   <!-- Hero Section -->
   <section class="hero" id="Home">
@@ -56,7 +55,8 @@ Exploring new technologies and improving my coding skills excites me every day.
 My goal is to create creative, responsive, and user-friendly web experiences.
       </p>
      
-<div class="cv-box" >
+<div class="cv-box">
+  <a href="Hassan_CV.pdf" target="_blank" class="cv-btn">👁 View CV</a>
   <a href="Hassan_CV.pdf" download class="cv-btn">📄 Download CV</a>
 </div>
 
@@ -311,10 +311,15 @@ My goal is to create creative, responsive, and user-friendly web experiences.
 
 
 <script>
-function toggleMenu() {
-  document.getElementById("navLinks").classList.toggle("active");
-}
+
+const menuBtn = document.getElementById("menuBtn");
+const navLinks = document.getElementById("navLinks");
+
+menuBtn.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+
 </script>
-  
+
 </body>
 </html>
